@@ -1,0 +1,67 @@
+main {
+  @include preset;
+};
+
+.jumbo {
+  width: 80%;
+  height: 650px;
+  .jumbo-left, .jumbo-right {
+    float: left;
+    height: 100%;
+  }
+  .jumbo-left {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    h2 {
+      font-size: 50px;
+      line-height: 75px;
+      color: $color_brown;
+      margin-bottom: 30px;
+    };
+    small {
+      font-size: 22px;
+      color: $color_brown;
+      margin-bottom: 40px;
+      line-height: 35px;
+      &:last-child {
+        font-size: 14px;
+        margin-top: 15px;
+      };
+    };
+    .social-buttons {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      p {
+        margin: 0 15px;
+        font-size: 13px;
+        color: #bdb5af;
+      }
+      button {
+        display: flex;
+        align-items: center;
+        padding: 6px 20px;
+        border-radius: 7px;
+        border: 1px solid $color_blue;
+        background: $color_blue;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        img {
+          width: 20px;
+        };
+      };
+    };
+  };
+  .jumbo-right {
+    width: 53%;
+    img {
+      margin-top: 100px;
+      height: 350px;
+    };
+  }
+};

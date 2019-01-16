@@ -75,3 +75,85 @@ nav {
   margin-right: 5px;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.jumbo {
+  width: 80%;
+  height: 650px;
+}
+
+.jumbo .jumbo-left,
+.jumbo .jumbo-right {
+  float: left;
+  height: 100%;
+}
+
+.jumbo .jumbo-left {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.jumbo .jumbo-left h2 {
+  font-size: 50px;
+  line-height: 75px;
+  color: #58402c;
+  margin-bottom: 30px;
+}
+
+.jumbo .jumbo-left small {
+  font-size: 22px;
+  color: #58402c;
+  margin-bottom: 40px;
+  line-height: 35px;
+}
+
+.jumbo .jumbo-left small:last-child {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.jumbo .jumbo-left .social-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.jumbo .jumbo-left .social-buttons p {
+  margin: 0 15px;
+  font-size: 13px;
+  color: #bdb5af;
+}
+
+.jumbo .jumbo-left .social-buttons button {
+  display: flex;
+  align-items: center;
+  padding: 6px 20px;
+  border-radius: 7px;
+  border: 1px solid #30488f;
+  background: #30488f;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.jumbo .jumbo-left .social-buttons button img {
+  width: 20px;
+}
+
+.jumbo .jumbo-right {
+  width: 53%;
+}
+
+.jumbo .jumbo-right img {
+  margin-top: 100px;
+  height: 350px;
+}
+
