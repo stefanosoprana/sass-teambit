@@ -157,3 +157,56 @@ main {
   height: 350px;
 }
 
+.main1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #ffe7d2;
+}
+
+.container {
+  width: 80%;
+  color: #58402c;
+}
+
+.container .main1-title {
+  margin-top: 70px;
+}
+
+.container .main1-title h2 {
+  font-size: 26px;
+  text-align: center;
+}
+
+.container .main1-center-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.container .main1-center-card .card {
+  margin: 45px 50px 0 50px;
+}
+
+.container .main1-center-card .card img {
+  width: 140px;
+}
+
+.container .main1-center-card .card p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.container .main1-bottom-card {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  width: 100%;
+  border-bottom: 1px solid #bdb5af;
+}
+
+.container .main1-bottom-card img {
+  width: 280px;
+}
+

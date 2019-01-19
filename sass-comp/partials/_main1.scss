@@ -1,0 +1,43 @@
+ .main1 {
+  @include preset;
+  background: $color_pink;
+}
+
+.container {
+  width: 80%;
+  // height: 600px;
+  color: $color_brown;
+  .main1-title {
+    margin-top: 70px;
+    h2 {
+      font-size: 26px;
+      text-align: center;
+    }
+  }
+  .main1-center-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    .card {
+      margin: 45px 50px 0 50px;
+      img {
+        width: 140px;
+      }
+      p {
+        text-align: center;
+        font-size: 18px;
+      }
+    }
+  }
+  .main1-bottom-card {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(189, 181, 175);
+    img {
+      width: 280px;
+    }
+  }
+}
